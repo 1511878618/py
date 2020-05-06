@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>GEO Browser - GEO - NCBI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="geo" />
+    <meta name="keywords" content="NCBI, national institutes of health, nih, database, archive, central, bioinformatics,                 biomedicine, geo, gene, expression, omnibus, chips, microarrays, oligonucleotide, array, sage, CGH" />
+    <meta name="description" content="Gene Expression Omnibus (GEO) is a database repository of high throughput                 gene expression data and hybridization arrays, chips, microarrays." />
+    <meta name="ncbidialog" content="width: 330, modal: true" />
+    <meta name="ncbi_app" content="geo" />
+    <meta name="ncbi_pdid" content="browse" />
+    <meta name="ncbi_phid" content="075156C3EA8FB2410000000000000001" />
+    <meta name="ncbi_sessionid" content="075156C3EA8FB241_0000SID" />
+    <link rel="shortcut icon" href="/geo/img/OmixIconBare.ico" />
+    <link rel="stylesheet" type="text/css" href="/geo/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/geo/css/geo.css" />
+    <link rel="stylesheet" type="text/css" href="browse.css" />
+    <script type="text/javascript" src="/core/jig/1.14.8/js/jig.min.js"></script>
+    <script type="text/javascript" src="/geo/js/dd_menu.js"></script>
+    <script type="text/javascript">
+        jQuery.getScript("/core/alerts/alerts.js", function () {
+            galert(['#crumbs_login_bar', 'body &gt; *:nth-child(1)'])
+        });
+    </script>
+    <script type="text/javascript">
+        var ncbi_startTime = new Date();
+    </script>
+  </head>
+  <body id="series" class="browse">
+    <div id="all">
+      <div id="page">
+        <div id="header">
+    <div id="ncbi_logo">
+        <a href="/">
+            <img src="/geo/img/ncbi_logo.gif" alt="NCBI Logo" />
+        </a>
+    </div>
+    <div id="geo_logo">
+        <a href="/geo/"><img src="/geo/img/geo_main.gif" alt="GEO Logo" /></a>
+    </div>
+</div>
+        <div id="nav_bar">
+    <ul id="geo_nav_bar">
+        <li><a href="#">GEO Publications</a>
+            <ul class="sublist">
+                <li><a href="/geo/info/GEOHandoutFinal.pdf">Handout</a></li>
+                <li><a href="http://nar.oxfordjournals.org/content/41/D1/D991.full">NAR 2013 (latest)</a></li>
+                <li><a href="http://nar.oupjournals.org/cgi/content/full/30/1/207?ijkey=oxMPOWseARs7o&amp;keytype=ref&amp;siteid=nar">NAR 2002 (original)</a></li>
+                <li><a href="/pmc/3531084,3341798,3013736,2686538,2270403,1669752,1619900,1619899,539976,99122">All publications</a></li>
+            </ul>
+        </li>
+        <li><a href="/geo/info/faq.html">FAQ</a></li>
+        <li><a href="/geo/info/MIAME.html" title="Minimum Information About a Microarray Experiment">MIAME</a></li>
+        <li><a href="mailto:geo@ncbi.nlm.nih.gov">Email GEO</a></li>
+    </ul>
+</div>
+        <div id="crumbs_login_bar"><a title="NCBI home page" href="/">NCBI</a> » 
+                <a id="curr_page" title="GEO home page" href="/geo/">GEO</a> »
+                <a title="GEO Repository browser" href="/geo/browse/">Repository browser</a> »
+                <span id="view"><a href="/geo/browse/?view=series">Series</a></span><span id="login_status"><a href="/geo/submitter" title="Click here to login. You need to do this only if you want to edit the contact information, submit data, see your unreleased data, or work with data already submitted by you. You do not need to login if you are here just to browse through public holdings">Login</a></span></div>
+        <div id="content">
+          <div id="view_nav">
+            <div class="tab" id="active_tab">
+              <a href="/geo/browse/?view=series">Series</a>
+            </div>
+            <div class="tab">
+              <a href="/geo/browse/?view=samples&amp;display=20">Samples</a>
+            </div>
+            <div class="tab">
+              <a href="/geo/browse/?view=platforms&amp;display=20">Platforms</a>
+            </div>
+            <div class="tab">
+              <a href="/sites/GDSbrowser">DataSets</a>
+            </div>
+          </div>
+          <div id="top_links"><a href="/geo/summary/">Summary</a> | 
+        <a href="/gds/advanced">Advanced search</a></div>
+          <ul id="data" style="display: none;">
+            <li id="filters"></li>
+            <li id="sort">&amp;zsort=date</li>
+            <li id="search_term"></li>
+            <li id="search_str"></li>
+            <li id="total_count">128667</li>
+            <li id="export_count">5000</li>
+            <li id="page_size">20</li>
+            <li id="page_count">6434</li>
+          </ul>
+          <div id="tools">
+            <div id="search_form" class="">
+              <form action="." method="post">
+                <input type="hidden" name="view" value="series" />
+                <input class="searchTxt " type="text" name="search" value="" />
+                <input type="hidden" name="display" value="20" />
+                <input class="button" type="submit" value="Search" />
+              </form>
+            </div>
+            <div id="count" class="commas">128667 series</div>
+            <div id="export" class="export">
+              <a class="button jig-ncbidialog" href="#export_options">Export</a>
+              <div id="export_options" class="ui-ncbidialog-dest export" title="Export options" style="display: none;">
+                <fieldset class="amount">
+                  <label>Amount</label>
+                  <ul>
+                    <li>
+                      <input name="amount" id="this_page" value="this_page" type="radio" checked="checked" />
+                      <label for="this_page">This page</label>
+                    </li>
+                    <li>
+                      <input name="amount" id="all_results" value="all_results" type="radio" />
+                      <label for="all_results">All search results</label>
+                    </li>
+                  </ul>
+                  <div id="vol" style="display: none;">
+                    <p>Select volume:</p>
+                    <select id="volume" name="volume">
+                      <option value="1">1-5000</option>
+                    </select>
+                  </div>
+                </fieldset>
+                <fieldset class="format">
+                  <label>Format</label>
+                  <ul>
+                    <li>
+                      <input name="format" id="csv" value="csv" type="radio" checked="checked" />
+                      <label for="csv">CSV</label>
+                    </li>
+                    <li>
+                      <input name="format" id="tsv" value="tsv" type="radio" />
+                      <label for="tsv">Tab</label>
+                    </li>
+                  </ul>
+                </fieldset>
+                <a id="exp_btn" class="button" title="Download text file" href="?view=series&amp;zsort=date">Export</a>
+              </div>
+            </div>
+            <div class="pager"><span class="first"><a href="?view=series&amp;zsort=date&amp;display=20&amp;page=1" title="First page">&lt;&lt;</a></span><span class="previous"><a href="?view=series&amp;zsort=date&amp;display=20&amp;page=6433" title="Previous page">&lt;</a></span><label for="page_num">Page </label><input class="page_num" id="page_num" size="3" value="6434" /> of <span id="page_cnt" class="commas">6434</span><span class="next inactive">&gt;</span><span class="last inactive">&gt;&gt;</span><label for="set_page_size">Page size </label><select id="set_page_size" size="1"><option value="10">10</option><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="200">200</option><option value="500">500</option></select></div>
+          </div>
+          <script type="text/javascript" src="browse.js"></script>
+          <table id="geo_data">
+            <thead>
+              <tr>
+                <th class="sort acc">
+                  <a href="?view=series&amp;display=20&amp;sort=acc" title="sort">Accession</a>
+                </th>
+                <th class="sort title">
+                  <a href="?view=series&amp;display=20&amp;sort=title" title="sort">Title</a>
+                </th>
+                <th class="sort setype">
+                  <a href="?view=series&amp;display=20&amp;sort=type" title="sort">Series type(s)</a>
+                </th>
+                <th class="sort species">
+                  <a href="?view=series&amp;display=20&amp;sort=tax" title="sort">Organism(s)</a>
+                </th>
+                <th class="sort samples">
+                  <a href="?view=series&amp;display=20&amp;sort=samples" title="sort">Samples</a>
+                </th>
+                <th class="sort gds">
+                  <a href="?view=series&amp;display=20&amp;sort=gds" title="sort ">GDS</a>
+                </th>
+                <th class="sort suppl">
+                  <a href="?view=series&amp;display=20&amp;sort=suppl" title="sort">Supplementary</a>
+                </th>
+                <th class="sort contact">
+                  <a href="?view=series&amp;display=20&amp;sort=submitter" title="sort">Contact</a>
+                </th>
+                <th class="sortdesc date">
+                  <a href="?view=series&amp;display=20&amp;sort=date" title="sort">Release date</a>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE9">GSE9</a>
+                </td>
+                <td class="title">
+                  <div>UV Exposure in Wild-Type and SOS-Deficient E. coli</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=1&amp;zsort=date&amp;display=20">Expression profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=562">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=562&amp;zsort=date&amp;display=20">Escherichia coli</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=9">15</a>
+                </td>
+                <td class="center">
+                  <a href="/gds/99,100">
+                    <img src="/geo/img/profile_icon.png" alt="Profile icon" />
+                  </a>
+                </td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=6&amp;zsort=date&amp;display=20">Stanford Microarray Database (SMD)</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=30Jul2001&amp;zsort=date&amp;display=20">Jul 30, 2001</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE6">GSE6</a>
+                </td>
+                <td class="title">
+                  <div>Genetic diversity among Helicobacter pylori strains</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=8&amp;zsort=date&amp;display=20">Genome variation profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=210">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=210&amp;zsort=date&amp;display=20">Helicobacter pylori</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=6">36</a>
+                </td>
+                <td class="center"></td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=6&amp;zsort=date&amp;display=20">Stanford Microarray Database (SMD)</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=25Jul2001&amp;zsort=date&amp;display=20">Jul 25, 2001</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE5">GSE5</a>
+                </td>
+                <td class="title">
+                  <div>Global profile of germline gene expression in C. elegans</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=1&amp;zsort=date&amp;display=20">Expression profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=6239">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=6239&amp;zsort=date&amp;display=20">Caenorhabditis elegans</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=5">34</a>
+                </td>
+                <td class="center">
+                  <a href="/gds/6">
+                    <img src="/geo/img/profile_icon.png" alt="Profile icon" />
+                  </a>
+                </td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=6&amp;zsort=date&amp;display=20">Stanford Microarray Database (SMD)</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=24Jul2001&amp;zsort=date&amp;display=20">Jul 24, 2001</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE4">GSE4</a>
+                </td>
+                <td class="title">
+                  <div>Diurnal and Circadian-Regulated Genes in Arabidopsis</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=1&amp;zsort=date&amp;display=20">Expression profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=3702">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=3702&amp;zsort=date&amp;display=20">Arabidopsis thaliana</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=4">13</a>
+                </td>
+                <td class="center">
+                  <a href="/gds/5,135">
+                    <img src="/geo/img/profile_icon.png" alt="Profile icon" />
+                  </a>
+                </td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=6&amp;zsort=date&amp;display=20">Stanford Microarray Database (SMD)</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=20Jul2001&amp;zsort=date&amp;display=20">Jul 20, 2001</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE3">GSE3</a>
+                </td>
+                <td class="title">
+                  <div>Renal Cell Carcinoma Differential Expression</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=1&amp;zsort=date&amp;display=20">Expression profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=9606">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=9606&amp;zsort=date&amp;display=20">Homo sapiens</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=3">342</a>
+                </td>
+                <td class="center"></td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=222&amp;zsort=date&amp;display=20">Wolfgang Huber</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=19Jul2001&amp;zsort=date&amp;display=20">Jul 19, 2001</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE2">GSE2</a>
+                </td>
+                <td class="title">
+                  <div>Cerebellar development</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=1&amp;zsort=date&amp;display=20">Expression profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=10090">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=10090&amp;zsort=date&amp;display=20">Mus musculus</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=2">5</a>
+                </td>
+                <td class="center"></td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=29&amp;zsort=date&amp;display=20">Yoshihiro Kagami</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=26Apr2001&amp;zsort=date&amp;display=20">Apr 26, 2001</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/geo/query/acc.cgi?acc=GSE1">GSE1</a>
+                </td>
+                <td class="title">
+                  <div>NHGRI_Melanoma_class</div>
+                </td>
+                <td>
+                  <ul class="bullet setype">
+                    <li>
+                      <a href="?view=series&amp;type=1&amp;zsort=date&amp;display=20">Expression profiling by array</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="species">
+                  <ul>
+                    <li>
+                      <a class="link_icon" href="/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=9606">
+                        <img src="/geo/img/link.png" alt="Link icon" />
+                      </a>
+                      <a class="sp" href="?view=series&amp;tax=9606&amp;zsort=date&amp;display=20">Homo sapiens</a>
+                    </li>
+                  </ul>
+                </td>
+                <td class="right">
+                  <a class="commas" href="/geo/browse/?view=samples&amp;series=1">38</a>
+                </td>
+                <td class="center"></td>
+                <td class="suppl"></td>
+                <td class="contact">
+                  <a class="cont" href="?view=series&amp;submitter=248&amp;zsort=date&amp;display=20">Michael Bittner</a>
+                </td>
+                <td class="date">
+                  <a href="?view=series&amp;date=22Jan2001&amp;zsort=date&amp;display=20">Jan 22, 2001</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="footer">
+    <span class="helpbar">|<a href="http://www.nlm.nih.gov"> NLM </a>|<a href="http://www.nih.gov"> NIH </a>|<a href="mailto:geo@ncbi.nlm.nih.gov"> Email GEO </a>|<a href="/geo/info/disclaimer.html"> Disclaimer </a>|<a href="http://www.nlm.nih.gov/accessibility.html"> Accessibility </a>|</span>
+</div>
+    </div>
+    <script type="text/javascript">
+    update_header_titles();
+    format_numbers();
+    add_titles();
+</script>
+    <script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js"></script>
+  </body>
+</html>
+
