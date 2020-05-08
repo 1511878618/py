@@ -1,5 +1,7 @@
 #  Git 教程
 
+![image-20200506172023352](https://file.upyun.biopy.cn/bed/20200506172026.png)
+
 从本地git库到github同步
 
 ####  初始化git仓库
@@ -11,11 +13,11 @@
 #### 对本地仓库进行初步管理
 
 1. `git add filename`  添加文件到仓库
-2. `git commit -m `本次上传的描述'
+2. `git commit -m ''` 
 
 以上步骤完成基本完成对文件的上传
 
-之后，若有修改则需要使用来同步
+之后，若有修改则需要使用来同步`git add .` or `git add  filename`，这是到index这一级，后面还需要`git commit -m ''`来提交至Repository。
 
 此外查看两次版本的差异使用`git status`
 
@@ -39,5 +41,9 @@
 
 使用以下代码即可
 
-git 
+`git add .` 
+
+`git commit -m ''`
+
+`git push python master`
 
