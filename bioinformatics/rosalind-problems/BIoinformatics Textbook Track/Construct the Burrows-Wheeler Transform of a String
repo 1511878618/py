@@ -1,0 +1,11 @@
+def BMT(dna):
+    matrix = []
+   
+    for i in range(len(dna)):
+        t = -i-1
+        out = dna[t:]+dna[:t]
+        matrix.append(out)
+    matrix = sorted(matrix) 
+    return ''.join(i[-1] for i in matrix)
+
+print(BMT('GCGTGCCTGGTCA$'))

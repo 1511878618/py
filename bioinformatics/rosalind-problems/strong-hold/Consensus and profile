@@ -1,0 +1,39 @@
+import collections 
+import Bio
+from Bio import SeqIO
+import random 
+import pandas as pd 
+
+
+def read_fasta(filename):
+    return [i for i in SeqIO.parse(open(filename),'fasta')]
+
+def profileMatrix(DNARecords):
+    #输入Bio.SeqRecord.SeqRecord 的List
+
+
+    #生产一个4xn，n为DNA序列的数目，4代表4种碱基,类型是一个pd.DataFrame
+    if all(isinstance(dna,Bio.SeqRecord.SeqRecord) for dna in DNARecords ):
+        # 首先转变成DNAStrings的样式
+        DNAStrings = pd.DataFrame([pd.Series(list(i.seq),name=i.name)for i in DNARecords])
+        Profile = DNAStrings.apply(lambda x:x.value_counts()).fillna(0)
+        return Profile
+ 
+
+
+def Consensus(profileMatrix):
+    #Consensus是ProfileMatrix中每一个DNA序列出现频率最多的碱基的组合，
+    # 也即每一个序列中频率最高的字符的合集组成的一个1xn的矩阵
+    #输入的矩阵类型是pd.DataFrame
+    if isinstance(profileMatrix,pd.DataFrame):
+        #定义一个匿名函数
+        Consensu = profileMatrix.apply(lambda x :x[x.values ==max(x)].index,axis=0)
+        return Consensu
+
+filename = 'bioinformatics/dna-toolset/test.txt'
+profile = profileMatrix(read_fasta(filename))
+text1 = '\n'.join('{}: {}'.format(index,value) for index,value in profile.iterrows())
+
+print(a.value)
+# with open('out.txt','w') as f:
+#     f.write(str())

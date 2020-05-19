@@ -1,0 +1,341 @@
+Sars seryl-aminoacyl-tRNA synthetase[Mus musculus]
+Gene ID: 20226, updated on 4-May-2020
+
+
+SUMMARY
+-------------------------------------------------------------------------------------------------
+
+Official Symbol: Sars (provided by MGI)
+Official full name: seryl-aminoacyl-tRNA synthetase (provided by MGI)
+Primary source: MGI:MGI:102809
+See related: Ensembl:ENSMUSG00000068739
+Gene type: protein coding
+RefSeq status: VALIDATED
+Organism: Mus musculus
+
+Lineage: Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+Murinae; Mus; Mus
+
+Also known as: Strs; Sars1; serRS
+Orthologsall (/gene/?Term=ortholog_gene_6301[group]), human (https://www.ncbi.nlm.nih.gov/gene/6301)
+
+GENOMIC CONTEXT
+-------------------------------------------------------------------------------------------------
+
+
+Location: 3 F3; 3 47.08 cM
+
+Annotation release	Status	Assembly	Chromosome	Location
+-------------------------------------------------------------------------------------------------
+108	current	GRCm38.p6 (GCF_000001635.26)	3	NC_000069.6 (108424864..108445259, complement) 
+Build 37.2	previous assembly	MGSCv37 (GCF_000001635.18)	3	NC_000069.5 (108229530..108248087, complement) 
+Exont count: 12
+<pre/>
+
+VARIATION
+-------------------------------------------------------------------------------------------------
+<pre>
+Alleles
+	Alleles of this type are documented at Mouse Genome Informatics
+		(MGI), http://www.informatics.jax.org/allele/summary?markerId=MGI:102809
+		Gene trapped (1) 
+		Targeted (1) </pre><pre/>
+
+
+INTERACTION
+-------------------------------------------------------------------------------------------------
+
+Description of Gene Interaction table
+
+Product		Interactant	Other Gene    Complex	Source		Pubs
+-------------------------------------------------------------------------------------------------
+
+Co-fractionation
+BioGRID:203074 	BioGRID:228422 	Acbd3      		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:216602 	Atg7       		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:211393 	Atp6v1c1   		BioGRID		PMID: 32325033
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:203083 	Atxn1      		BioGRID		PMID: 30457570
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:107252 	CALM1      		BioGRID		PMID: 16512683
+Co-fractionation
+BioGRID:203074 	BioGRID:198978 	Cttn       		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:230340 	Dus3l      		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:203372 	Eftud2     		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:212960 	Elac2      		BioGRID		PMID: 32325033
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:122378 	GPBP1      		BioGRID		PMID: 26496610
+Co-fractionation
+BioGRID:203074 	BioGRID:219952 	Gtf2a1     		BioGRID		PMID: 32325033
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:117474 	IBTK       		BioGRID		PMID: 26496610
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:122459 	MRPL57     		BioGRID		PMID: 26496610
+Reconstituted Complex
+BioGRID:203074 	BioGRID:120112 	OTUD4      		BioGRID		PMID: 31138677
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:124320 	PARP10     		BioGRID		PMID: 26496610
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:111766 	PTPRS      		BioGRID		PMID: 26496610
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:115149 	RNF40      		BioGRID		PMID: 26496610
+Co-fractionation
+BioGRID:203074 	BioGRID:218328 	Rpl18a     		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:202969 	Rpl19      		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:203005 	Rps17      		BioGRID		PMID: 32325033
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:115202 	SETDB1     		BioGRID		PMID: 26496610
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:116342 	STRAP      		BioGRID		PMID: 26496610
+Co-fractionation
+BioGRID:203074 	BioGRID:213273 	Snx5       		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:224462 	Tbcd       		BioGRID		PMID: 32325033
+Affinity Capture-MS
+BioGRID:203074 	BioGRID:204190 	Tia1       		BioGRID		PMID: 27160897
+Co-fractionation
+BioGRID:203074 	BioGRID:211746 	Ttc1       		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:211631 	Uba5       		BioGRID		PMID: 32325033
+Co-fractionation
+BioGRID:203074 	BioGRID:204401 	Uba52      		BioGRID		PMID: 32325033
+
+GENERAL GENE INFO
+-------------------------------------------------------------------------------------------------
+
+Marker
+	MDB0358              	(e-PCR)	Links:UniSTS:125017
+	RH126345             	(e-PCR)	Links:UniSTS:163053
+	Sars1                	(e-PCR), detects polymorphism	Links:UniSTS:144369
+
+
+Homology
+	Homologs of the Sars gene
+		The Sars gene is conserved in human, chimpanzee, dog, cow, rat, chicken, zebrafish, fruit fly, mosquito, C.elegans, S.cerevisiae, K.lactis, E.gossypii, S.pombe, M.oryzae, N.crassa, A.thaliana, rice, and frog.
+	Orthologs from Annotation Pipeline (/gene/?Term=ortholog_gene_6301[group]): 
+	Orthologs
+
+Gene Ontology Provided by GOA (www.ebi.ac.uk/GOA)
+
+Function				      GO ID		Evidence
+-------------------------------------------------------------------------------------------------
+ATP binding                                   GO:0000000	-
+DNA binding                                   GO:0000000	-
+RNA polymerase II proximal promoter sequ...   GO:0000000	-
+aminoacyl-tRNA ligase activity                GO:0000000	-
+ligase activity                               GO:0000000	-
+nucleotide binding                            GO:0000000	-
+protein homodimerization activity             GO:0000000	-
+serine-tRNA ligase activity                   GO:0000000	PMID: 21873635
+serine-tRNA ligase activity                   GO:0000000	-
+tRNA binding                                  GO:0000000	PMID: 21873635
+
+Processs				      GO ID		Evidence
+-------------------------------------------------------------------------------------------------
+negative regulation of angiogenesis           GO:0000000	-
+negative regulation of transcription by ...   GO:0000000	-
+negative regulation of vascular endothel...   GO:0000000	-
+seryl-tRNA aminoacylation                     GO:0000000	PMID: 21873635
+seryl-tRNA aminoacylation                     GO:0000000	-
+tRNA aminoacylation for protein translat...   GO:0000000	-
+translation                                   GO:0000000	-
+
+Component				      GO ID		Evidence
+-------------------------------------------------------------------------------------------------
+cytoplasm                                     GO:0000000	-
+cytosol                                       GO:0000000	PMID: 21873635
+cytosol                                       GO:0000000	-
+mitochondrion                                 GO:0000000	PMID: 18614015
+nucleus                                       GO:0000000	-
+
+GENERAL PROTEIN INFORMATION
+-------------------------------------------------------------------------------------------------
+Preferred Names
+	serine--tRNA ligase, cytoplasmic
+Names
+	seryl-aminoacyl-tRNA synthetase 1
+	seryl-tRNA synthetase, cytoplasmic
+	seryl-tRNA(Ser/Sec) synthetase
+NP_001191908.1
+	EC 6.1.1.11
+NP_035449.1
+	EC 6.1.1.11
+
+NCBI REFERENCE SEQUENCES (RefSeq)
+-------------------------------------------------------------------------------------------------
+
+RefSeqs maintained independently of Annotated Genomes
+
+These reference sequences exist independently of genome builds.
+These reference sequences are curated independently of the genome annotation cycle, 
+so their versions may not match the RefSeq versions in the current genome build. 
+Identify version mismatches by comparing the version of the RefSeq in this section to 
+the one reported in Genomic regions, transcripts, and products section above.
+
+	mRNA and Protein(s) 
+
+	NM_001204979.1 → NP_001191908.1  VALIDATEDserine--tRNA ligase, cytoplasmic isoform 2
+
+	See proteins identical to NP_001191908.1 at http://130.14.22.106/ipg/NP_001191908.1/
+
+		Description: Transcript Variant: This variant (2) lacks an i...
+	Source sequence(s): AK028358, AK075827, BP765728, BY034232 
+	  Consensus CDS: CCDS57254.1
+	  UniProtKB/Swiss-Prot: P26638
+
+	Related Ensembl: ENSMUSP00000088041.5, ENSMUST00000090553.11
+	  Conserved Domains (3)summary
+		PLN02678: 
+		Location:3 - 486
+		PLN02678; seryl-tRNA synthetase
+		cd00770: 
+		Location:152 - 460
+		SerRS_core; Seryl-tRNA synthetase (SerRS) class II core catalytic domain. SerRS is responsible for t...
+		pfam02403: 
+		Location:3 - 109
+		Seryl_tRNA_N; Seryl-tRNA synthetase N-terminal domain
+
+	NM_011319.3 → NP_035449.1  VALIDATEDserine--tRNA ligase, cytoplasmic isoform 1
+
+	See proteins identical to NP_035449.1 at http://130.14.22.106/ipg/NP_035449.1/
+
+		Description: Transcript Variant: This variant (1) represents...
+	Source sequence(s): AK028358, AK082793, BP765728, BY034232 
+	  Consensus CDS: CCDS17760.1
+	  UniProtKB/TrEMBL: Q8C483
+
+	Related Ensembl: ENSMUSP00000099685.4, ENSMUST00000102625.10
+	  Conserved Domains (3)summary
+		PLN02678: 
+		Location:3 - 510
+		PLN02678; seryl-tRNA synthetase
+		cd00770: 
+		Location:152 - 484
+		SerRS_core; Seryl-tRNA synthetase (SerRS) class II core catalytic domain. SerRS is responsible for t...
+		pfam02403: 
+		Location:3 - 109
+		Seryl_tRNA_N; Seryl-tRNA synthetase N-terminal domain
+
+RefSeqs of Annotated Genomes: Mus musculus Annotation Release 108
+The following sections contain reference sequences that belong to a specific genome build. 
+This section includes genomic Reference Sequences (RefSeqs) from all assemblies on which 
+this gene is annotated, such as RefSeqs for chromosomes and scaffolds (contigs) from both 
+reference and alternate assemblies. Model RNAs and proteins are also reported here.
+
+Reference GRCm38.p6 C57BL/6J
+
+	Genomic
+		NC_000069.6 Reference GRCm38.p6 C57BL/6J
+		Range   	108424863..108445258, complement
+		Download	GenBank FASTA Sequence Viewer (Graphics) 
+
+
+
+RELATED SEQUENCES
+-------------------------------------------------------------------------------------------------
+
+Nucleotide			Protein	Strain
+-------------------------------------------------------------------------------------------------
+genomic             		AL672200.10(32200..52595)	NoneC57BL/6J
+genomic             		CH466607.1	EDL01968.1mixed
+				EDL01969
+mRNA                		AK028154.1	BAC25781.1C57BL/6J
+mRNA                		AK028358.1	NoneC57BL/6J
+mRNA                		AK075827.1	BAC35990.1C57BL/6J
+mRNA                		AK077309.1	NoneC57BL/6J
+mRNA                		AK082793.1	BAC38623.1C57BL/6J
+mRNA                		AK147825.1	NoneC57BL/6J
+mRNA                		AK152150.1	BAE30986.1C57BL/6J
+mRNA                		AK153158.1	BAE31768.1C57BL/6J
+mRNA                		AK181805.1	None
+mRNA                		AK184943.1	None
+mRNA                		AK190309.1	None
+mRNA                		AK197914.1	None
+mRNA                		AK217272.1	None
+mRNA                		AK217331.1	None
+mRNA                		AK219731.1	None
+mRNA                		BC008612.1	AAH08612.1NMRI
+mRNA                		BC031932.1	NoneFVB/N
+mRNA                		BP765728.1	NoneC57BL/6
+mRNA                		BY034232.1	NoneC57BL/6J
+mRNA                		M74012.1	AAA40108.1
+
+Protein Accession		Links
+-------------------------------------------------------------------------------------------------
+P26638.3       	GenPept(/protein/18266844)		UniProtKB/Swiss-Prot:P26638
+
+GENE LINKOUT
+-------------------------------------------------------------------------------------------------
+The following LinkOut(www.ncbi.nlm.nih.gov/projects/linkout/index.html) resources
+are supplied by external providers. These providers are responsible for
+maintaining the links.
+
+Chemical Information
+  (Free resource) (free) Interologous Interaction Database
+	Interologous Interaction Database
+  (Order form) MilliporeSigma
+	Sars productsSars products
+
+Molecular Biology Databases
+  (Free resource) (free) BioGPS
+	BioGPS
+  (Free resource) (free) BioGRID Open Repository of CRISPR Screens (ORCS)
+	BioGRID CRISPR Screen Phenotypes (9 hits/18 screens)BioGRID CRISPR Screen Phenotypes (9 hits/18 screens)
+  (Free resource) (free) CREB Target Gene Database
+	CREB Target Gene Database
+  (Free resource) (free) Eukaryotic Promoter Database
+	Sars_1Sars_1
+  (Order form) GenScript latest version of gene cDNA ORF Clone
+	GenScript latest version of gene cDNA ORF Clone
+  (Free resource) (free) GeneNetwork
+	Records for gene expression in MouseRecords for gene expression in Mouse
+  (Free resource) (free) Genevisible
+	SarsSars
+  (Free resource) (free) Immunological Genome Project
+	Immunological Genome Project
+  Ingenuity Pathways Analysis
+	Ingenuity Pathways Analysis
+  (Free resource) (free) InnateDB
+	InnateDB
+  KOMP Repository
+	KOMP Repository
+  (Free resource) (free) Kyoto Encyclopedia of Genes and Genomes
+	Kyoto Encyclopedia of Genes and Genomes
+  (Free resource) (free) NIA Mouse Gene Index
+	NIA Mouse Gene Index(mm9, Jul 2007)NIA Mouse Gene Index(mm9, Jul 2007)
+  (Free resource) (free) Nuclear Receptor Signaling Atlas (NURSA)
+	Transcriptomine: regulation of the Sars gene by nuclear receptor signaling pathwaysTranscriptomine: regulation of the Sars gene by nuclear receptor signaling pathways
+  (Free resource) (free) OMA Browser: Orthologous MAtrix
+	OMA Browser: Orthologous MAtrixOMA Browser: Orthologous MAtrix
+  (Free resource) (free) OrthoDB catalog of orthologs
+	OrthologsOrthologs
+  (Free resource) (free) PhosphoSitePlus
+	PhosphoSitePlus® - comprehensive post-translational modification resourcePhosphoSitePlus® - comprehensive post-translational modification resource
+  (Free resource) (free) Protein Ontology Consortium
+	Protein Ontology Consortium
+  (Free resource) (free) Vertebrate Genome Annotation (VEGA) database
+	Vertebrate Genome Annotation (VEGA) database
+  (Free resource) (free) iRefWeb - iRefIndex release 9.0 - Consolidated Interactome
+	iRefWeb - iRefIndex release 9.0 - Consolidated Interactome
+
+Research Materials
+  (Order form) Addgene Non-profit plasmid repository
+	Get Plasmids - AddgeneGet Plasmids - Addgene
+  ExactAntigen/Labome
+	reagentsreagents
+  (Order form) GeneCopoeia Inc.
+	Order shRNA clonesOrder shRNA clonesOrder full-length ORF cloneOrder full-length ORF cloneOrder promoter cloneOrder promoter clone
+  (Order form) Sino Biological Inc.
+	Mouse SARS Gene cDNA Clone (full-length ORF Clone)Mouse SARS Gene cDNA Clone (full-length ORF Clone)
+
+Tools
+  (Free resource) (free) GeneMANIA
+	GeneMANIA
